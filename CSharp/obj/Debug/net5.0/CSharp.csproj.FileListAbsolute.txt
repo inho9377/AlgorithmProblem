@@ -1,0 +1,16 @@
+D:\DevProgram\AlgorithmStudy\CSharp\bin\Debug\net5.0\CSharp.exe
+D:\DevProgram\AlgorithmStudy\CSharp\bin\Debug\net5.0\CSharp.deps.json
+D:\DevProgram\AlgorithmStudy\CSharp\bin\Debug\net5.0\CSharp.runtimeconfig.json
+D:\DevProgram\AlgorithmStudy\CSharp\bin\Debug\net5.0\CSharp.runtimeconfig.dev.json
+D:\DevProgram\AlgorithmStudy\CSharp\bin\Debug\net5.0\CSharp.dll
+D:\DevProgram\AlgorithmStudy\CSharp\bin\Debug\net5.0\ref\CSharp.dll
+D:\DevProgram\AlgorithmStudy\CSharp\bin\Debug\net5.0\CSharp.pdb
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.csproj.AssemblyReference.cache
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.AssemblyInfoInputs.cache
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.AssemblyInfo.cs
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.csproj.CoreCompileInputs.cache
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.dll
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\ref\CSharp.dll
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.pdb
+D:\DevProgram\AlgorithmStudy\CSharp\obj\Debug\net5.0\CSharp.genruntimeconfig.cache
