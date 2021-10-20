@@ -14,27 +14,36 @@ public class _002_AddTwoNumbers
     }
   public ListNode AddTwoNumbers(ListNode l1, ListNode l2) 
   {
-    ListNode node = new ListNode();
-    ListNode inNode = new ListNode();
+    ListNode dummyHead = new ListNode();
+    ListNode node = dummyHead;
     int carry=0;
     while(l1 != null || l2 != null)
     {
-      int value = l1.val + l2.val + carry;
-      if(value > 10)
+      int a = l1 == null? 0 : l1.val;
+      int b = l2 == null? 0 : l2.val;
+
+      int value = a + b + carry;
+      carry = value / 10;
+      value = value % 10;
+
+      node.next = new ListNode(value);
+      node = node.next;
+      if(l1 != null)
       {
-        carry = value/10;
-        value %= 10;
+        l1 = l1.next;
       }
-      else
+      if(l2 != null)
       {
-        carry = 0;
+        l2 = l2.next;      
       }
-      
-      inNode.val = value;
-      
     }
 
-    return node;
+    if(carry > 0)
+    {
+      node.next = new ListNode(carry);
+    }
+
+    return dummyHead.next;
   }
 }
 
