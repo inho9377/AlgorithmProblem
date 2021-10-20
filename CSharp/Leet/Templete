@@ -1,0 +1,12 @@
+using System.Collections.Generic;
+
+
+public class _0
+{
+    public string Problem(string s) 
+    {
+
+
+    }
+
+}
