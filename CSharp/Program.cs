@@ -6,8 +6,8 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            var a = new _004_MedianOfTwoSortedArrays();
-            a.Problem(new int[]{1,3}, new int[]{2});
+            var a = new _007_ReverseInteger();
+            a.Problem(1534236469);
             Console.WriteLine("Hello World!");
         }
     }
