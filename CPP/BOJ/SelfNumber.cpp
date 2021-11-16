@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-int Sum() {
-    int number;
-    scanf("%d", &number);
+int SelfNumber() {
 
-    int sum = number*(number+1)/2;
-    printf("%d", sum);
+  bool isSelfNumber[10001] = {true};
 
-    return 0;
+  return 0;
 } 

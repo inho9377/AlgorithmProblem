@@ -4,6 +4,7 @@
     "algorithm": "cpp",
     "array": "cpp",
     "limits": "cpp",
-    "string_view": "cpp"
+    "string_view": "cpp",
+    "vector": "cpp"
   }
 }
