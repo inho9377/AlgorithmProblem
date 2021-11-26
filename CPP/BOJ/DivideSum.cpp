@@ -23,6 +23,6 @@ int DivideSum() {
       return 0;
     }
   }
-      printf("%d", 0);
+  printf("%d", 0);
   return 0;
 }
