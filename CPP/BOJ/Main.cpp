@@ -1,10 +1,9 @@
 #include <iostream>
-#include "MultiplicationTable.cpp"
+#include "QuadTree.cpp"
 
 int main() {
 
-    MultiplicationTable();
-    
+    QuadTree();
     std::cout << "Hello World!" << std::endl;
     
     return 0;

@@ -1,14 +1,19 @@
 #include <stdio.h>
 #include <string>
-
+#include <iostream>
 using namespace std;
 
 int map[70][70];
 
-string answer;
 
 void Number(int start_X, int start_Y, int size)
 {
+  //종료조건 검색 참조. 이 식이 성립되는 정확한 이유는 모르겠다.
+  if(size == 1)
+  {
+    printf("%d", map[start_X][start_Y]);
+    return;
+  }
   bool allOne = true;
   bool allZero = true;
 
@@ -56,14 +61,15 @@ int QuadTree() {
   scanf("%d", &count);
   for(int i=0; i<count; i++)
   {
-    for (int t=0; t<count; t++)
+    //입력 방법 검색 참조
+    string str;
+    cin >> str;
+    for (int t=0; t<str.length(); t++)
     {
-      scanf("%d", &map[i][t]);
+      map[i][t] = str[t] - '0';
     }
   }
 
-  printf("(");
-  Number(0,0, count-1);
-  printf(")");
+  Number(0,0, count);
   return 0;
 }

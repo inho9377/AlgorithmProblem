@@ -12,4 +12,4 @@ int APlusBMinus3() {
     }
 
     return 0;
-} 
+} //freopen("./input.txt", "r", stdin);
